@@ -1,0 +1,33 @@
+.message {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+
+.message > .MuiTypography-h5 {
+  font-size: 1rem !important;
+}
+
+.message__user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message__userCard {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+  border-radius: 100px !important;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    45deg,
+    rgba(63, 94, 251, 1) 28%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  font-size: small;
+}
+
+.message__guestCard {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+  background-color: #e9e9eb !important;
+  border-radius: 100px !important;
+}
